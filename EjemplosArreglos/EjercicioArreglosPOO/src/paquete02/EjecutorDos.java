@@ -17,7 +17,11 @@ public class EjecutorDos {
                notas);
         
         libreta.establecerPromedio();
+        //si se envia como comentado el metodo las notas no pueden se recibidas 
+        //y es imposible el calcular el promedio 
         libreta.establecerPromedioCualitativo();
+        //si se envia como comentado el metodo lel promedio no puede ser recibido 
+        //y las condicionales no pueden ejecutarse y no puede arrojar un mensaje
         System.out.printf("\n%s\n", libreta);
     
 }
